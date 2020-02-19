@@ -12,7 +12,7 @@ for _, item in pairs(Items) do
     local tech = item[2]
     if data.raw.item[name] then
         if not data.raw.item["deadlock-stack-" .. name] then
-            deadlock.add_stack(name, nil, tech, nil)
+            deadlock.add_stack(name, string.format("__DeadlockStackingForSchallAlienLoot__/graphics/icons/stacked-%s.png", name), tech, 64, "item", 4)
         end
     end
 end

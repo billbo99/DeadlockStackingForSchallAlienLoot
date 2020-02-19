@@ -1,13 +1,13 @@
 {
     "name": "DeadlockStackingForSchallAlienLoot",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "title": "Deadlock Stacking for Schall Alien Loot",
     "author": "billbo99",
     "contact": "",
     "homepage": "https://github.com/billbo99/DeadlockStackingForSchallAlienLoot",
-    "factorio_version": "0.17",
+    "factorio_version": "0.18",
     "dependencies": [
-        "base >= 0.17",
+        "base >= 0.18",
         "SchallAlienLoot"
     ],
     "description": "Stacking for Schall Alien Loot"
